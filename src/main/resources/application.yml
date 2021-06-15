@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-boot-elk
+opentracing:
+  jaeger:
+    udp-sender:
+      host: localhost
+      port: 6831
+    log-spans: true
+logging:
+  file: D:/Demo Project/spring-boot-elk/spring-boot-elk.log
