@@ -31,7 +31,8 @@ class ELKController {
 
 		return response;
 	}
-	
+
+
 	/**
 	 * function to return Entity information
 	 * @return Entity
