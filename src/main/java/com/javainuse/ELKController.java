@@ -29,7 +29,6 @@ class ELKController {
 		String response = "Welcome to javainuse" + new Date();
 		LOG.info(response);
 
-		
 		return response;
 	}
 
