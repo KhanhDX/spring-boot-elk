@@ -12,6 +12,11 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
+
+cache:
+  paths:
+    - '/root/.m2/**/*'
+
 artifacts:
   files:
     - target/spring-boot-elk-0.0.1-SNAPSHOT.jar
